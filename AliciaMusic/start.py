@@ -37,7 +37,7 @@ Use the buttons below to know more about me..
 
 @Aliciabot.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(client: Aliciabot, message: Message):
-      await message.reply_text(f"""**{BOT_NAME} is online**🥰""",
+      await message.reply_text(f"""**{BOT_NAME} is online**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
