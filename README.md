@@ -65,7 +65,7 @@
 
 <summary> Deploy To Heroku👇 </summary>
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/H1M4N5HU0P/AliciaMusicOP)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TutorialYouTube/AliciaMusicOP)
 
 <summary> Easiest Way To Deploy🙂 </summary> 
 
