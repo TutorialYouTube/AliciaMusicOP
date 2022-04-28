@@ -1,0 +1,26 @@
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
+from config import BOT_NAME as bn
+from helpers.filters import command, other_filters2, other_filters
+
+
+
+@Aliciamusic.on_message(command("help") & other_filters2)
+async def helper(ok, message: Message):
+    await message.reply_text(
+        f""" Hello! Following are the commands available for **{bn}** - __I am fully lag free music player
+made with scratch__.
+ **Users Commands :**
+• /play - **[ Groups Only ]** > __Plays the replied audio file or YouTube video through link.__
+• /song - **[ Groups & DM ]** > __Uploads the searched song in the chat.__
+• /ytplay - **[ Groups Only ]** > __Plays the song directly from YouTube Search.__
+ **Admin & Sudo Users Commands :**
+• /pause - **[Groups Only ]** > __Pause Voice Chat Music.__
+• /resume - **[Groups Only ]** > __Resume Voice Chat Music.__
+• /skip - **[Groups Only ]** > __Skips the current Music Playing In Voice Chat.__
+• /stop - **[Groups Only ]** > __Clears The Queue as well as ends Voice Chat Music.__""")
+
+@Aliciamusic.on_message(command("help") & other_filters)
+async def ghelp(_, message: Message):
+    await message.reply_text(f"**{bn} :-** Hey! PM me to get all the commands 😉")
