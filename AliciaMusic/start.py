@@ -24,7 +24,7 @@ Use the buttons below to know more about me..
             [ 
                 [
                     InlineKeyboardButton("Creator", url=f"https://t.me/AkHiL_SI"),                
-                    InlineKeyboardButton("Commands", url=f"https://telegra.ph/MUSIC-BOT-COMMANDS-09-28")
+                    InlineKeyboardButton("Supporter", url=f"https://t.me/Get_out_of_my_way")
                      ],[
                     InlineKeyboardButton("Update", url=f"https://t.me/AkiraUpdates"),
                     InlineKeyboardButton("Support ", url=f"https://t.me/TheBlue_Support"),
