@@ -27,7 +27,7 @@ Use the buttons below to know more about me..
                     InlineKeyboardButton("Commands", url=f"https://telegra.ph/MUSIC-BOT-COMMANDS-09-28")
                      ],[
                     InlineKeyboardButton("Update", url=f"https://t.me/AkiraUpdates"),
-                    InlineKeyboardButton("Support ", url=f"https://t.me/TheBlue_Support"
+                    InlineKeyboardButton("Support ", url=f"https://t.me/TheBlue_Support"),
                     InlineKeyboardButton("➕ ADD TO YOUR GROUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
             ]
