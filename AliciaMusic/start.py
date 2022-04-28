@@ -23,7 +23,7 @@ Use the buttons below to know more about me..
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
-                    InlineKeyboardButton("Developer", url=f"https://t.me/AkHiL_SI"),                
+                    InlineKeyboardButton("Creator", url=f"https://t.me/AkHiL_SI"),                
                     InlineKeyboardButton("Commands", url=f"https://telegra.ph/MUSIC-BOT-COMMANDS-09-28")
                      ],[
                     InlineKeyboardButton("Update", url=f"https://t.me/AkiraUpdates"),
@@ -41,7 +41,7 @@ async def gstart(client: Aliciabot, message: Message):
       reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Developer", url=f"https://t.me/AkHiL_SI"),
+                    InlineKeyboardButton("Creator", url=f"https://t.me/AkHiL_SI"),
                     InlineKeyboardButton("More Projects", url=f"https://t.me/TheBlueCode")
                 ]
             ]
