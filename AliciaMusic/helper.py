@@ -6,7 +6,7 @@ from helpers.filters import command, other_filters2, other_filters
 
 
 
-@Aliciamusic.on_message(command("help") & other_filters2)
+@Aliciabot.on_message(command("help") & other_filters2)
 async def helper(ok, message: Message):
     await message.reply_text(
         f""" Hello! Following are the commands available for **{bn}** - __I am fully lag free music player
@@ -21,6 +21,6 @@ made with scratch__.
 • /skip - **[Groups Only ]** > __Skips the current Music Playing In Voice Chat.__
 • /stop - **[Groups Only ]** > __Clears The Queue as well as ends Voice Chat Music.__""")
 
-@Aliciamusic.on_message(command("help") & other_filters)
+@Aliciabot.on_message(command("help") & other_filters)
 async def ghelp(_, message: Message):
     await message.reply_text(f"**{bn} :-** Hey! PM me to get all the commands 😉")
