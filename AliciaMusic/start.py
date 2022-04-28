@@ -42,25 +42,8 @@ async def gstart(client: Aliciabot, message: Message):
             [
                 [
                     InlineKeyboardButton("Developer", url=f"https://t.me/AkHiL_SI"),
-                    InlineKeyboardButton("Main", url=f"https://t.me/TheBlueCode")
+                    InlineKeyboardButton("More Projects", url=f"https://t.me/TheBlueCode")
                 ]
             ]
         )
    )
-
-
-@Aliciabot.on_message(filters.command("help") & filters.private & ~filters.channel)
-async def help(client: Aliciabot, message: Message):
-    await message.reply_text(
-        f"""<b>Hey there {format(
-        message.from_user.mention)}! [Click here](https://telegra.ph/MUSIC-BOT-COMMANDS-09-28) to know about my Commands.
-        """)
-        
-
-@Aliciabot.on_message(filters.command("commands") & filters.private & ~filters.channel)
-async def commands(client: Aliciabot, message: Message):
-    await message.reply_text(
-        f"""<b>Hey there {format(
-        message.from_user.mention)}! [Click here](https://telegra.ph/MUSIC-BOT-COMMANDS-09-28) to know about my Commands.
-        """)
-        
